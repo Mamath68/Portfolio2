@@ -2,8 +2,8 @@
     {
         "_id": 1,
         "img":"/assets/portfolio/portfolio-1.jpg",
-        "title":"",
-        "brief":"",
+        "title":"Pokemon",
+        "brief":"This is a JS PokeGame",
         "category":"UX/UI"
     },
     {
@@ -37,6 +37,27 @@
     {
         "_id": 6,
         "img":"/assets/portfolio/portfolio-6.jpg",
+        "title":"",
+        "brief":"",
+        "category":"App"
+    },
+    {
+        "_id": 7,
+        "img":"/assets/portfolio/portfolio-7.jpg",
+        "title":"",
+        "brief":"",
+        "category":"UX/UI"
+    },
+    {
+        "_id": 8,
+        "img":"/assets/portfolio/portfolio-8.jpg",
+        "title":"",
+        "brief":"",
+        "category":"Web"
+    },
+    {
+        "_id": 9,
+        "img":"/assets/portfolio/portfolio-9.jpg",
         "title":"",
         "brief":"",
         "category":"App"

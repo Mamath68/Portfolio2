@@ -6,7 +6,7 @@ function NavListItem({ item, navOnClick }) {
         <li>
             <a
                 href="#"
-                className={`nav-link ${item.active ? 'active' : null}`}
+                className={`nav-link ${item.active ? "active" : null}`}
                 onClick={() => navOnClick(item._id, item.target)}
             >
                 {item.name}</a>
