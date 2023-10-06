@@ -64,8 +64,7 @@ function Resume({ reference }) {
           <div className="col-lg-6">
             <h3 className="resume-title">Experience Professionel</h3>
             <div className="resume-item">
-              <h4>Vide</h4>
-              <h5>Pour le Moment</h5>
+              <h4>Lire le Paragraphe ci-contre</h4>
             </div>
           </div>
         </div>

@@ -1,65 +1,74 @@
 [
     {
         "_id": 1,
-        "img":"/assets/portfolio/portfolio-1.jpg",
-        "title":"Pokemon",
-        "brief":"This is a JS PokeGame",
-        "category":"UX/UI"
+        "img": "/assets/portfolio/portfolio-1.jpg",
+        "title": "Landing Page",
+        "brief": "Ceci est un One-Page en HTML/CSS et JS",
+        "link": "https://github.com/Mamath68/Landing-Page",
+        "category": "FrontEnd"
     },
     {
         "_id": 2,
-        "img":"/assets/portfolio/portfolio-2.jpg",
-        "title":"",
-        "brief":"",
-        "category":"Web"
+        "img": "/assets/portfolio/portfolio-2.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "BackEnd"
     },
     {
         "_id": 3,
-        "img":"/assets/portfolio/portfolio-3.jpg",
-        "title":"",
-        "brief":"",
-        "category":"App"
+        "img": "/assets/portfolio/portfolio-3.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "Prototype"
     },
     {
         "_id": 4,
-        "img":"/assets/portfolio/portfolio-4.jpg",
-        "title":"",
-        "brief":"",
-        "category":"UX/UI"
+        "img": "/assets/portfolio/portfolio-4.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "FrontEnd"
     },
     {
         "_id": 5,
-        "img":"/assets/portfolio/portfolio-5.jpg",
-        "title":"",
-        "brief":"",
-        "category":"Web"
+        "img": "/assets/portfolio/portfolio-5.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "BackEnd"
     },
     {
         "_id": 6,
-        "img":"/assets/portfolio/portfolio-6.jpg",
-        "title":"",
-        "brief":"",
-        "category":"App"
+        "img": "/assets/portfolio/portfolio-6.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "Prototype"
     },
     {
         "_id": 7,
-        "img":"/assets/portfolio/portfolio-7.jpg",
-        "title":"",
-        "brief":"",
-        "category":"UX/UI"
+        "img": "/assets/portfolio/portfolio-7.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "FrontEnd"
     },
     {
         "_id": 8,
-        "img":"/assets/portfolio/portfolio-8.jpg",
-        "title":"",
-        "brief":"",
-        "category":"Web"
+        "img": "/assets/portfolio/portfolio-8.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "BackEnd"
     },
     {
         "_id": 9,
-        "img":"/assets/portfolio/portfolio-9.jpg",
-        "title":"",
-        "brief":"",
-        "category":"App"
+        "img": "/assets/portfolio/portfolio-9.jpg",
+        "title": "",
+        "brief": "",
+        "link": "This is a JS PokeGame",
+        "category": "Prototype"
     }
 ]

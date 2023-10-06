@@ -10,7 +10,7 @@ function Skills({ active }) {
     return (
         <div className="container skills">
             <div className="section-title">
-                <h2>Skills</h2>
+                <h2>Langages</h2>
             </div>
             <div className="row skills-content">
                 <div className="col-lg-6">

@@ -18,8 +18,7 @@ function About({ reference, aboutActive }) {
                     <div className="col-lg-8 pt-4 pt-lg-0 content">
                         <h3>Developpeur Web et Web Mobile</h3>
                         <p className="fst-italic">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Recusandae error doloremque deserunt reprehenderit.
+
                         </p>
                         <div className="row">
                             <div className="col-lg-6">
@@ -61,7 +60,7 @@ function About({ reference, aboutActive }) {
                             </div>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus tempora commodi alias? Magni, dicta nam repudiandae repellendus et architecto exercitationem eveniet dolorum? Ipsa iusto dolorem velit nisi rerum nostrum ea.
+                            Fraîchement certifié d'une formation qualifiante (Développeur Web et Web Mobile) à Elan formation à Mulhouse, je suis à la recherche d'une poursuite de formation, d'une alternance ou d'un premier emploi pour m'insérer pleinement dans le monde du travail.
 
                         </p>
                     </div>

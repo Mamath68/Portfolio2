@@ -8,7 +8,7 @@ function Interests() {
     return (
         <div className="container interests">
             <div className="section-title">
-                <h2>Interests</h2>
+                <h2>Centre D'interets</h2>
             </div>
             <div className="row">{
                 interests.map(interest => (

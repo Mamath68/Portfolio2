@@ -6,17 +6,17 @@ const filterListData = [
     },
     {
         _id: 2,
-        name: 'UX/UI',
+        name: 'FrontEnd',
         active: false,
     },
     {
         _id: 3,
-        name: 'Web',
+        name: 'BackEnd',
         active: false,
     },
     {
         _id: 4,
-        name: 'App',
+        name: 'Prototype',
         active: false,
     },
 ]
