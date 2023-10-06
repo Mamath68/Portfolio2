@@ -41,7 +41,7 @@ function Header({ reference, sectionActive, aboutActive }) {
                     <a href="/">Mathieu Stamm</a>
                 </h1>
                 <h2>
-                    I'm passionate <span>website designer</span> from Mulhouse(France).
+                    Je suis un <span>Développeur Web passionné</span> de Mulhouse.
                 </h2>
                 <nav id="navbar" className="navbar">
                     <ul>

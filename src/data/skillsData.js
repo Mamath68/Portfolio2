@@ -27,7 +27,7 @@ const skillsData = [
     {
         _id: 6,
         percentage: "95%",
-        name: 'DataBase',
+        name: 'Base de Données',
     },
 ]
 
