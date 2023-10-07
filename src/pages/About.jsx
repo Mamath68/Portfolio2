@@ -5,6 +5,7 @@ import profilImg from '../images/profile-img.jpg';
 import Counter from '../components/Counter';
 import Skills from '../components/Skills';
 import Interests from '../components/Interests';
+import Linguistique from '../components/Linguistique';
 
 function About({ reference, aboutActive }) {
     return (
@@ -60,7 +61,7 @@ function About({ reference, aboutActive }) {
                             </div>
                         </div>
                         <p>
-                            Fraîchement certifié d'une formation qualifiante (Développeur Web et Web Mobile) à Elan formation à Mulhouse, je suis à la recherche d'une poursuite de formation, d'une alternance ou d'un premier emploi pour m'insérer pleinement dans le monde du travail.
+                            Fraîchement certifié d'une formation de Développeur Web et Web Mobile, je suis à la recherche d'une suite de formation, d'une alternance ou d'un premier emploi pour m'insérer pleinement dans le monde du travail.
 
                         </p>
                     </div>
@@ -68,6 +69,7 @@ function About({ reference, aboutActive }) {
             </div>
             <Counter active={aboutActive} />
             <Skills active={aboutActive} />
+            <Linguistique active={aboutActive} />
             <Interests active={aboutActive} />
         </section>
     );

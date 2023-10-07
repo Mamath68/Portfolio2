@@ -1,0 +1,35 @@
+/***********************************
+# Linguistiques
+***********************************/
+.linguistiques .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+}
+
+.linguistiques .progress .linguistique {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.linguistiques .progress .linguistique .val {
+    float: right;
+    font-style: normal;
+}
+
+.linguistiques .progress-bar-wrap {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.linguistiques .progress-bar {
+    width: 1px;
+    height: 10px;
+    transition: 0.9s;
+    background-color: var(--primary);
+}

@@ -1,38 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './contactForm.css';
 
 function ContactForm() {
-    const initialState = {
-        fullname: '',
-        email: '',
-        subject: '',
-        message: '',
-        result: '',
-    };
 
-    const [text, setText] = useState(initialState);
-
-    const changeText = e => {
-        const { name, value } = e.target;
-        setText({ ...text, [name]: value, result: '' })
-    };
-
-    const handleSubmitMessage = e => {
-        e.preventDefault();
-        if (text.fullname === '' || text.email === '' || text.message === '') {
-            setText({ ...text, result: 'incomplete' });
-        }
-        console.log('submit');
-    }
     return (
-        <form className="contact-form mt-4" onSubmit={handleSubmitMessage}>
+        <form action="https://getform.io/f/a8940881-04f5-47e6-93bf-bfde0fc31015" method="post" className="contact-form mt-4" >
             <div className="row">
                 <div className="col-md-6 form-group">
                     <input
                         type="text"
-                        name="fullname"
-                        value={text.fullname}
-                        onChange={changeText}
+                        name="name"
                         id="name"
                         className="form-control"
                         placeholder="Prenom + Nom"
@@ -42,8 +19,6 @@ function ContactForm() {
                     <input
                         type="email"
                         name="email"
-                        value={text.email}
-                        onChange={changeText}
                         id="email"
                         className="form-control"
                         placeholder="Votre Email"
@@ -54,8 +29,6 @@ function ContactForm() {
                 <input
                     type="text"
                     name="subject"
-                    value={text.subject}
-                    onChange={changeText}
                     id="subject"
                     className="form-control"
                     placeholder="Sujet"
@@ -65,21 +38,16 @@ function ContactForm() {
                 <textarea
                     name="message"
                     id="message"
-                    value={text.message}
-                    onChange={changeText}
                     rows="6"
                     className="form-control"
                     placeholder="Votre Message">
                 </textarea>
             </div>
-            {text.result === 'incomplete' && (
-                <div className="error-message">S'il Vous Plait, Veuillez Renseigner toutes les zones du formulaire</div>
-            )}
             <div className="text-center">
                 <button type="submit">Envoyer le message</button>
             </div>
         </form>
-    )
-}
+    );
+};
 
 export default ContactForm

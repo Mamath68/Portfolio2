@@ -1,31 +1,31 @@
 const counterData = [
     {
         _id: 1,
-        end: 266,
-        duration: 2,
+        end: 0,
+        duration: 3,
         icon: 'bi bi-emoji-smile',
-        name: 'Happy Clients',
+        name: 'Clients Satisfait',
     },
     {
         _id: 2,
-        end: 108,
-        duration: 2,
+        end: 34,
+        duration: 3,
         icon: 'bi bi-journal-richtext',
-        name: 'Projects',
+        name: 'Projets',
     },
     {
         _id: 3,
-        end: 2463,
-        duration: 2,
+        end: 20,
+        duration: 3,
         icon: 'bi bi-headset',
-        name: 'Hours of Support',
+        name: 'Heures de Supports Visionné',
     },
     {
         _id: 4,
-        end: 12,
-        duration: 2,
+        end: 0,
+        duration: 3,
         icon: 'bi bi-award',
-        name: 'Awards',
+        name: 'Recompences',
     },
 ]
 
