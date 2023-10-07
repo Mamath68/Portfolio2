@@ -1,76 +1,34 @@
 const interestsData = [
     {
         _id: 1,
-        name: 'Lorem Ipsum',
+        name: 'Natation',
         color: '#ffbb2c',
-        icon: 'ri-store-line',
+        icon: 'bx bx-swim',
     },
     {
         _id: 2,
-        name: 'Dolor Sitema',
+        name: 'Randonnée',
         color: '#5578ff',
-        icon: 'ri-bar-chart-box-line',
+        icon: 'bx bx-walk',
     },
     {
         _id: 3,
-        name: 'Sed perspiciatis',
+        name: 'Lecture',
         color: '#e80368',
-        icon: 'ri-calendar-todo-line',
+        icon: 'ri-book-fill',
     },
     {
         _id: 4,
-        name: 'Magni Dolores',
+        name: 'Jeux Videos',
         color: '#e361ff',
-        icon: 'ri-paint-brush-line',
+        icon: 'bi bi-controller',
     },
     {
         _id: 5,
-        name: 'Nemo Enim',
+        name: 'Ordinateur',
         color: '#47aeff',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 6,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 7,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 8,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 9,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 10,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 11,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
-    {
-        _id: 12,
-        name: 'Eiusmod Tempor',
-        color: '#ffa76e',
-        icon: 'ri-database-2-line',
-    },
+        icon: 'ri-computer-line',
+    }
 ]
 
 export default interestsData;
