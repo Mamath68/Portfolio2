@@ -21,17 +21,11 @@ const servicesData = [
     {
         _id: 4,
         icon: 'ri-gallery-upload-line',
-        name: 'Gestion de Site',
-        brief: "Si Vous le désirez, j'assurerais la gestion du site, j'en ferais régulièrement l'entretient pour vérifier sa sécurité et le mettre à jours. ",
+        name: 'Maintenance du Site',
+        brief: "Si Vous le désirez, j'assure la maintenance du site. Lentretient sera régulièrement effecté et sera mis à jours, de même que la base de données. ",
     },
     {
         _id: 5,
-        icon: 'ri-database-2-line',
-        name: 'Gestion de la base de donnée',
-        brief: "De même que pour le site, j'assure la maintenance de la base de donnée.",
-    },
-    {
-        _id: 6,
         icon: 'ri-recycle-line',
         name: 'Refonte de Site',
         brief: "Si vous avez déja un site, et avez besoin d'une refonte total ou partiel, je suis à votre disposition.",
