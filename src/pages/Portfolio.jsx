@@ -3,25 +3,13 @@ import './portfolio.css';
 import SectionTitle from '../components/SectionTitle';
 import filterListData from '../data/filterListData';
 import PortfolioItem from '../components/PortfolioItem';
+import portfolioData from '../data/portfolioData';
+
 
 function Portfolio({ reference }) {
-  const [portfolio, setPortfolio] = useState([]);
   const [data, setData] = useState([]);
   const [filters, setFilters] = useState(filterListData);
-
-  const fetchData = () => {
-    fetch('http://localhost:3000/api/portfolioData.json')
-      .then(rest => rest.json())
-      .then(data => {
-        console.log(data);
-        setPortfolio(data)
-      })
-      .catch(e => console.log(e.message));
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+  const [portfolio] = useState(portfolioData)
 
   useEffect(() => {
     setData(portfolio)

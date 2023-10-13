@@ -3,14 +3,14 @@ import './counter.css';
 import counterData from '../data/counterData'
 import CounterItem from './CounterItem';
 
-function Counter({active}) {
+function Counter({ active }) {
 
     const [counters] = useState(counterData)
 
     return (
         <div className="container counts">
             <div className="row">
-                {active &&  counters.map(counter => (
+                {active && counters.map(counter => (
                     <CounterItem key={counter._id} item={counter} />
                 ))}
             </div>
