@@ -10,7 +10,7 @@ function Portfolio({ reference }) {
   const [filters, setFilters] = useState(filterListData);
 
   const fetchData = () => {
-    fetch('http://localhost:3000/api/portfolioData.json')
+    fetch('public/api/portfolioData.json')
       .then(rest => rest.json())
       .then(data => {
         console.log(data);
