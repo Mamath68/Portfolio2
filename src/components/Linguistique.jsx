@@ -5,7 +5,7 @@ import linguistiqueData from '../data/linguistiqueData';
 
 function Linguistique({ active }) {
 
-    const [linguistiques, setLinguistique] = useState(linguistiqueData);
+    const [linguistiques] = useState(linguistiqueData);
 
     return (
         <div className="container linguistiques">

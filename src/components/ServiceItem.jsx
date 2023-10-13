@@ -8,7 +8,7 @@ function ServiceItem({ service }) {
                     <i className={service.icon}></i>
                 </div>
                 <h4>
-                    <a href="#">{service.name}</a>
+                    {service.name}
                 </h4>
                 <p>{service.brief}</p>
             </div>

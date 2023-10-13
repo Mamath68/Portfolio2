@@ -5,7 +5,7 @@ import servicesData from '../data/servicesData';
 import ServiceItem from '../components/ServiceItem';
 
 function Services({ reference }) {
-  const [services, setServices] = useState(servicesData);
+  const [services] = useState(servicesData);
   return (
     <section id="services" className="services" ref={reference}>
       <div className="container services">

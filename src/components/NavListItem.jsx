@@ -5,7 +5,7 @@ function NavListItem({ item, navOnClick }) {
     return (
         <li>
             <a
-                href="#"
+                href="#item.name"
                 className={`nav-link ${item.active ? "active" : null}`}
                 onClick={() => navOnClick(item._id, item.target)}
             >

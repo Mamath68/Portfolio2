@@ -5,7 +5,7 @@ import CounterItem from './CounterItem';
 
 function Counter({active}) {
 
-    const [counters, setCounters] = useState(counterData)
+    const [counters] = useState(counterData)
 
     return (
         <div className="container counts">

@@ -9,9 +9,6 @@ function PortfolioItem({ item }) {
                     <h4>{item.title}</h4>
                     <p>{item.brief}</p>
                     <div className="portfolio-links">
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="bx bx-plus"></i>
-                        </a>
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                             <i className="bx bx-link"></i>
                         </a>

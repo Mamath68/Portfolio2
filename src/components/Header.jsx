@@ -55,10 +55,11 @@ function Header({ reference, sectionActive, aboutActive }) {
                     </ul>
                 </nav>
                 <div className="social-links">
-                    <SocialLinksItem name="bi bi-twitter-x" />
-                    <SocialLinksItem name="bi bi-facebook" />
-                    <SocialLinksItem name="bi bi-instagram" />
-                    <SocialLinksItem name="bi bi-linkedin" />
+                    <SocialLinksItem name="bi bi-github" href="https://github.com/Mamath68" />
+                    <SocialLinksItem name="bi bi-linkedin" href="https://www.linkedin.com/in/mathieu-stamm-680885224/" />
+                    <SocialLinksItem name="bi bi-facebook" href="https://www.facebook.com/MathieuStamm" />
+                    <SocialLinksItem name="bi bi-twitter-x" href="https://twitter.com/Mamath1998" />
+                    <SocialLinksItem name="bi bi-instagram" href="https://www.instagram.com/mathieu_stamm/" />
                 </div>
             </div>
         </header>

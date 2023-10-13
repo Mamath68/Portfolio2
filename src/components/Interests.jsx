@@ -4,7 +4,7 @@ import interestsData from '../data/interestsData';
 import InterestItem from './InterestItem';
 
 function Interests() {
-    const [interests, setInterests] = useState(interestsData);
+    const [interests] = useState(interestsData);
     return (
         <div className="container interests">
             <div className="section-title">

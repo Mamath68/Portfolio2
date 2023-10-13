@@ -5,7 +5,7 @@ import SkillBar from './SkillBar';
 
 function Skills({ active }) {
 
-    const [skills, setSkills] = useState(skillsData);
+    const [skills] = useState(skillsData);
 
     return (
         <div className="container skills">

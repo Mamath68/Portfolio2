@@ -1,9 +1,10 @@
 import React from 'react';
 import './socialLinksItem.css';
 
-function SocialLinksItem({name}) {
+function SocialLinksItem({ name, href }) {
     return (
-        <a href="/">
+
+        <a href={href} target='_blank' rel='noreferrer noopener'>
             <i className={name}></i>
         </a>
     );
