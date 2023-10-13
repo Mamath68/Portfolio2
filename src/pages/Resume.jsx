@@ -33,11 +33,11 @@ function Resume({ reference }) {
                 </em>
               </p>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iste, voluptates voluptate eius vitae, fuga laudantium optio quia, et illum libero error. Eius molestias inventore reiciendis deserunt odit est voluptatum.
+                Formation de Developpeur Web et Web Mobile, Apprentissage du php, programation orienté objet, amélioration des bases en html, css.
               </p>
             </div>
             <div className="resume-item">
-              <h4>Remise à niveau et préparation au métier de Developpeur Web et Web Mobile</h4>
+              <h4>Préparation au métier de Developpeur Web et Web Mobile</h4>
               <h5>2022</h5>
               <p>
                 <em>
@@ -45,7 +45,7 @@ function Resume({ reference }) {
                 </em>
               </p>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iste, voluptates voluptate eius vitae, fuga laudantium optio quia, et illum libero error. Eius molestias inventore reiciendis deserunt odit est voluptatum.
+                Remise a niveau scolaire et préparation en vue d'integrer une licence professionnel Developpeur Web et Web Mobile. Apprentissage des bases en html, css, javascript, php.
               </p>
             </div>
             <div className="resume-item">
@@ -57,7 +57,7 @@ function Resume({ reference }) {
                 </em>
               </p>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis iste, voluptates voluptate eius vitae, fuga laudantium optio quia, et illum libero error. Eius molestias inventore reiciendis deserunt odit est voluptatum.
+                CAP Agricole en 2 ans. Productions de fleurs, fruits et légumes.
               </p>
             </div>
           </div>

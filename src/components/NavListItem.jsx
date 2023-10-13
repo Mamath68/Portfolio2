@@ -11,7 +11,7 @@ function NavListItem({ item, navOnClick }) {
             >
                 {item.name}</a>
         </li>
-    );  
+    );
 }
 
 export default NavListItem
