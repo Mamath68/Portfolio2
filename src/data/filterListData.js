@@ -14,11 +14,6 @@ const filterListData = [
         name: 'BackEnd',
         active: false,
     },
-    {
-        _id: 4,
-        name: 'Prototype',
-        active: false,
-    },
 ]
 
 export default filterListData;
