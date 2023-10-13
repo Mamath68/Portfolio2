@@ -22,7 +22,7 @@ const servicesData = [
         _id: 4,
         icon: 'ri-gallery-upload-line',
         name: 'Maintenance du Site',
-        brief: "Si Vous le désirez, j'assure la maintenance du site. Lentretient sera régulièrement effecté et sera mis à jours, de même que la base de données. ",
+        brief: "Si Vous le désirez, j'assure la maintenance du site. L'entretient sera régulièrement effecté et sera mis à jours, de même que la base de données. ",
     },
     {
         _id: 5,
