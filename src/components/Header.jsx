@@ -43,6 +43,7 @@ function Header({ reference, sectionActive, aboutActive }) {
                 <h2>
                     Je suis un <span>Développeur Web passionné</span> de Mulhouse.
                 </h2>
+                
                 <nav id="navbar" className="navbar">
                     <ul>
                         {navList.map(item => (
