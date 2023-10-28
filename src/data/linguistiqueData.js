@@ -1,20 +1,15 @@
 const linguistiqueData = [
+    
     {
         _id: 1,
-        percentage: "100%",
-        level: "Maitre",
-        name: 'Français',
-    },
-    {
-        _id: 2,
         percentage: "95%",
-        level: "Expert",
+        level: "Langue Maternelle",
         name: 'Allemand',
     },
     {
-        _id: 3,
+        _id: 2,
         percentage: "60%",
-        level: "Intermédiaire",
+        level: "Appris en autodidacte",
         name: 'Anglais',
     },
     

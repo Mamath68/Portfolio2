@@ -21,15 +21,6 @@ function Contact({ reference }) {
               <i className="bx bx-share-alt"></i>
               <h3>Réseaux Sociaux</h3>
               <div className="social-links">
-                <a href="https://twitter.com/Mamath1998" target="_blank" rel="noopener noreferrer" className="twitter-x">
-                  <i className="bi bi-twitter-x"></i>
-                </a>
-                <a href="https://www.facebook.com/MathieuStamm" target="_blank" rel="noopener noreferrer" className="facebook">
-                  <i className="bi bi-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/mathieu_stamm/" target="_blank" rel="noopener noreferrer" className="instagram">
-                  <i className="bi bi-instagram"></i>
-                </a>
                 <a href="https://github.com/Mamath68" target="_blank" rel="noopener noreferrer" className="github">
                   <i className="bi bi-github"></i>
                 </a>
