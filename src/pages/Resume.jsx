@@ -6,7 +6,7 @@ function Resume({ reference }) {
   return (
     <section id="resume" className="resume" ref={reference}>
       <div className="container resume">
-        <SectionTitle title="Resumé" subtitle="Regardez mon CV" />
+        <SectionTitle title="CV" subtitle="Regardez mon CV" />
         <div className="row">
           <div className="col-lg-12">
             <h3 className="resume-title">Sommaire</h3>
@@ -14,7 +14,7 @@ function Resume({ reference }) {
               <h4>Mathieu Stamm</h4>
               <p>
                 <em>
-                  Fraîchement certifié d'une formation qualifiante (Développeur Web et Web Mobile) à Elan formation à Mulhouse, je suis à la recherche d'une poursuite de formation, d'une alternance ou d'un premier emploi pour m'insérer pleinement dans le monde du travail.
+                  Fraîchement certifié d'une formation qualifiante (Développeur Web et Web Mobile) à Elan formation à Mulhouse, je suis à la recherche d'une alternance dans le cadre de ma poursuite de formation.
                 </em>
               </p>
               <ul>

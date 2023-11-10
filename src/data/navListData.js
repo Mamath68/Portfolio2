@@ -14,7 +14,7 @@ const navListData = [
     {
         _id: 3,
         target: 'resume',
-        name: 'Resumé',
+        name: 'CV',
         active: false,
     },
     {

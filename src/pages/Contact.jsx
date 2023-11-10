@@ -31,7 +31,7 @@ function Contact({ reference }) {
             </div>
           </div>
           <div className="col-md-6 mt-4 d-flex align-items-stretch">
-            <div className="info-box">
+            <div className="contact2">
               <i className="bx bx-envelope"></i>
               <h3>Email</h3>
               <a href="mailto:mathieu.stamm@gmail.com">mathieu.stamm@gmail.com</a>
@@ -39,7 +39,7 @@ function Contact({ reference }) {
             </div>
           </div>
           <div className="col-md-6 mt-4 d-flex align-items-stretch">
-            <div className="info-box">
+            <div className="contact2">
               <i className="bx bx-phone-call"></i>
               <h3>M'appeler</h3>
               <a href="tel:+33669142804">+33 6 69 14 28 04</a>

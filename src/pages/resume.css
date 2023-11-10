@@ -57,3 +57,12 @@
     background: var(--primary);
     border: 2px solid var(--primary);
 }
+
+.resume-item li a {
+    color: aqua;
+    text-decoration: none;
+}
+.resume-item li a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
