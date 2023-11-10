@@ -37,7 +37,7 @@ function Portfolio({ reference }) {
   return (
     <section id="portfolio" className="portfolio" ref={reference}>
       <div className="container portfolio ">
-        <SectionTitle title="Portfolio" subtitle="Mon Portfolio" />
+        <SectionTitle title="Projets" subtitle="Mes Projets" />
         <div className="row">
           <div className="col-lg-12 d-flex justify-contant-center">
             <ul id="portfolio-filters">

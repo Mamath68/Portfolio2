@@ -8,7 +8,7 @@ function Resume({ reference }) {
       <div className="container resume">
         <SectionTitle title="Resumé" subtitle="Regardez mon CV" />
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-12">
             <h3 className="resume-title">Sommaire</h3>
             <div className="resume-item pb-0">
               <h4>Mathieu Stamm</h4>
@@ -59,12 +59,6 @@ function Resume({ reference }) {
               <p>
                 CAP Agricole en 2 ans. Productions de fleurs, fruits et légumes.
               </p>
-            </div>
-          </div>
-          <div className="col-lg-6">
-            <h3 className="resume-title">Experience Professionel</h3>
-            <div className="resume-item">
-              <h4>Lire le Paragraphe ci-contre</h4>
             </div>
           </div>
         </div>

@@ -34,11 +34,14 @@
 }
 
 .portfolio .portfolio-wrap {
-    transition: 0.3s;
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    background: rgba(0, 0, 0, 0.1);
+  background: rgba(0,0,0,0.1) !important;
+  overflow: hidden !important;
+  position: relative !important;
+  transition: .3s !important;
+  z-index: 1 !important;
+  min-width: 300px !important;
+  height: 200px !important;
+  object-fit: cover !important;
 }
 
 .portfolio .portfolio-wrap::before {

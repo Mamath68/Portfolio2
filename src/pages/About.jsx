@@ -23,7 +23,7 @@ function About({ reference, aboutActive }) {
                         </p>
                         <div className="row">
                             <div className="col-lg-6">
-                                <ul>
+                                <ul className="linkabout">
                                     <li>
                                         <i className="bi bi-chevron-right"></i>{' '}
                                         <strong>Date de Naissance: </strong><span>12 Février 1998</span>
@@ -43,7 +43,7 @@ function About({ reference, aboutActive }) {
                                 </ul>
                             </div>
                             <div className="col-lg-6">
-                                <ul>
+                                <ul className="linkabout">
                                     <li>
                                         <i className="bi bi-chevron-right"></i>{' '}
                                         <strong>Age: </strong><span>25</span>
@@ -60,10 +60,6 @@ function About({ reference, aboutActive }) {
                                 </ul>
                             </div>
                         </div>
-                        <p>
-                            Fraîchement certifié d'une formation de Développeur Web et Web Mobile, je suis à la recherche d'une suite de formation, d'une alternance ou d'un premier emploi pour m'insérer pleinement dans le monde du travail.
-
-                        </p>
                     </div>
                 </div>
             </div>

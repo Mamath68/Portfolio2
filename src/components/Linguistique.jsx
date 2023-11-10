@@ -10,7 +10,7 @@ function Linguistique({ active }) {
     return (
         <div className="container linguistiques">
             <div className="section-title">
-                <h2>Langages</h2>
+                <h2>Langues parlé</h2>
             </div>
             <div className="row skills-content">
                 <div className="col-lg-12">

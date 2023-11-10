@@ -1,32 +1,27 @@
 const skillsData = [
     {
         _id: 1,
-        percentage: "95%",
-        level: "Avancé",
+        icon: "bx bxl-html5",
         name: 'HTML',
     },
     {
         _id: 2,
-        percentage: "95%",
-        level: "Avancé",
+        icon: "bx bxl-css3",
         name: 'CSS',
     },
     {
         _id: 3,
-        percentage: "80%",
-        level: "Intermédiaire",
+        icon: "bx bxl-php",
         name: 'PHP',
     },
     {
         _id: 4,
-        percentage: "85%",
-        level: "Intermediaire",
+        icon: "bi bi-filetype-sql",
         name: 'SQL',
     },
     {
         _id: 5,
-        percentage: "95%",
-        level: "Avancé",
+        icon: "bi bi-database",
         name: 'Base de Données',
     },
 ]

@@ -47,7 +47,7 @@
 }
 
 .services .icon-box h4 a {
-    color: #fff;
+    color: black;
 }
 
 .services .icon-box p {
@@ -66,14 +66,14 @@
 }
 
 .services .icon-box:hover .icon i {
-    color: var(--second);
+    color: black
 }
 
 .services .icon-box:hover .icon::before {
     background: var(--primary);
 }
 
-.services .icon-box:hover h4 a,
+.services .icon-box:hover h4,
 .services .icon-box:hover p {
-    color: #fff;
+    color: black;
 }

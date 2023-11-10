@@ -9,7 +9,7 @@ function Services({ reference }) {
   return (
     <section id="services" className="services" ref={reference}>
       <div className="container services">
-        <SectionTitle title="Services" subtitle="Mes services" />
+        <SectionTitle title="Compétences" subtitle="Ce que je peut faire" />
         <div className="row">
           {services.map(service => (
             <ServiceItem key={service._id} service={service} />

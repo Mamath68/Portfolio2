@@ -9,7 +9,7 @@ function Counter({ active }) {
 
     return (
         <div className="container counts">
-            <div className="row">
+            <div className="row justify-content-center">
                 {active && counters.map(counter => (
                     <CounterItem key={counter._id} item={counter} />
                 ))}

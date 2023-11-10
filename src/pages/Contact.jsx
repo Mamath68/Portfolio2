@@ -34,14 +34,16 @@ function Contact({ reference }) {
             <div className="info-box">
               <i className="bx bx-envelope"></i>
               <h3>Email</h3>
-              <p>mathieu.stamm@gmail.com</p>
+              <a href="mailto:mathieu.stamm@gmail.com">mathieu.stamm@gmail.com</a>
+
             </div>
           </div>
           <div className="col-md-6 mt-4 d-flex align-items-stretch">
             <div className="info-box">
               <i className="bx bx-phone-call"></i>
               <h3>M'appeler</h3>
-              <p>+33 6 69 14 28 04</p>
+              <a href="tel:+33669142804">+33 6 69 14 28 04</a>
+
             </div>
           </div>
 

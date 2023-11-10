@@ -20,13 +20,13 @@ const navListData = [
     {
         _id: 4,
         target: 'services',
-        name: 'Services',
+        name: 'Compétences',
         active: false,
     },
     {
         _id: 5,
         target: 'portfolio',
-        name: 'Portfolio',
+        name: 'Projets',
         active: false,
     },
     {

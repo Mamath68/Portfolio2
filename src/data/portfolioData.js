@@ -34,7 +34,7 @@ const portfolioData = [
     },
     {
         "_id": 5,
-        "img": "/assets/portfolio/domjs.jpeg",
+        "img": "/assets/portfolio/domjs.jpg",
         "title": "Exercice Dom-JS",
         "brief": "Ceci est un Exercice fait en formation sur le dom en js.",
         "link": "https://github.com/Mamath68/D.O.M_JS",
