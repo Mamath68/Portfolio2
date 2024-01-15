@@ -13,6 +13,9 @@ function PortfolioItem({ item }) {
                         <a href={item.link} target="_blank" rel="noopener noreferrer">
                             <i className="bx bx-link"></i>
                         </a>
+                        <a href={item.demo} target="_blank" rel="noopener noreferrer">
+                            <i class='bx bx-plus-circle'></i>
+                        </a>
                     </div>
                 </div>
             </div>

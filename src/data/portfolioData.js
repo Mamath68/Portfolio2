@@ -6,6 +6,7 @@ const portfolioData = [
         "title": "Landing Page",
         "brief": "Ceci est un One-Page en HTML/CSS",
         "link": "https://github.com/Mamath68/Landing-Page",
+        "demo": "https://landing-page-ms.netlify.app/",
         "category": "FrontEnd"
     },
     {
@@ -19,13 +20,23 @@ const portfolioData = [
     {
         "_id": 3,
         "img": "/assets/portfolio/simpson.png",
-        "title": "Simpsons",
+        "title": "Simpsons V1",
         "brief": "Ceci est un Site FrontEnd sur les Simpsons",
-        "link": "https://github.com/Mamath68/Simpsons",
+        "link": "https://github.com/Mamath68/Simpsons-V1",
+        "demo": "https://simpsons-v1.netlify.app/",
         "category": "FrontEnd"
     },
     {
         "_id": 4,
+        "img": "/assets/portfolio/simpson.png",
+        "title": "Simpsons V2",
+        "brief": "Ceci est un Site FrontEnd sur les Simpsons",
+        "link": "https://github.com/Mamath68/Simpsons-V2",
+        "demo": "https://simpson-v2.netlify.app/",
+        "category": "FrontEnd"
+    },
+    {
+        "_id": 5,
         "img": "/assets/portfolio/cinema.jpg",
         "title": "Cinema POO",
         "brief": "Ceci est un projet sur le cinema",
@@ -33,19 +44,21 @@ const portfolioData = [
         "category": "BackEnd"
     },
     {
-        "_id": 5,
+        "_id": 6,
         "img": "/assets/portfolio/domjs.jpg",
         "title": "Exercice Dom-JS",
         "brief": "Ceci est un Exercice fait en formation sur le dom en js.",
         "link": "https://github.com/Mamath68/D.O.M_JS",
+        "demo": "https://d-o-m-js.netlify.app/",
         "category": "FrontEnd"
     },
     {
-        "_id": 6,
+        "_id": 7,
         "img": "/assets/portfolio/appliphp.jpeg",
         "title": "1ère Appli PHP",
         "brief": "comme le dit le nom, c'est la première application en php.",
         "link": "https://github.com/Mamath68/Appli_PHP",
+        "demo": "",
         "category": "BackEnd"
     }
 ]
