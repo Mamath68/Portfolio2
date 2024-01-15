@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './navListItem.css';
 
@@ -5,7 +6,7 @@ function NavListItem({ item, navOnClick }) {
     return (
         <li>
             <a
-                href="#item.name"
+                href="#"
                 className={`nav-link ${item.active ? "active" : null}`}
                 onClick={() => navOnClick(item._id, item.target)}
             >
